@@ -1,0 +1,87 @@
+*{
+    background-color: #eaf2e3;
+}
+button {
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #023141;
+    border-radius: 12px;
+    border: none;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+
+.btnQuit:hover{
+    background-color: #ff6565;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#btnLoad:hover {
+    background-color: #77dd77;
+    color: white;
+}
+
+#tituloPost{
+    background-color: #dcdcdc;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+#body {
+    background: #000; 
+    color: #0c92ac; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #abecf9; 
+    border-radius: 6px;
+    width: 30%;
+  }
+
+#datosUser{
+    background: #e87f52; 
+    color: #000; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #bdfae6; 
+    border-radius: 6px;
+    width: 30%;
+}
+
+
+.colorcomentarios{
+    color: rgb(190, 29, 29); 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #d8d8d8; 
+    width: 30%;
+
+}
+
+.colortituloscomentarios{
+    background: #000; 
+    color: #f15c8e; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #fac9d9; 
+    border-radius: 6px;
+    width: 30%;
+}
+
+#line{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background: #000;
+    margin-bottom: 20px;
+}
